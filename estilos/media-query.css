@@ -1,0 +1,135 @@
+
+/* typical device breakpoints 
+
+    small screens: max-width: 600px
+    phone: max-width: 600px - 768px
+    tablet: max-width: 768px - 992px
+    desktop: max-width: 992px - 1024px
+    extra large screens: above 1024px
+    */
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    header{
+            padding: 3.2rem 3.4rem; 
+        }
+    
+        main{
+        padding: 3.2rem 3.4rem; 
+    }
+
+    .main__image img{
+        max-width: 60rem;
+    }
+
+    .main__text{
+       
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+   header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   }
+
+    nav{
+        position: inherit;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    .nav__menu-icon{
+        display: none;
+    }
+
+    .nav__cloese-icon{
+        display: none;
+    }
+
+    .nav__menu-list ul{
+        list-style: none;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        
+    }
+    
+    .nav__menu-list ul li{
+        margin-bottom: 0rem;
+        display: inline-block;
+        margin-left: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   }
+
+    nav{
+        position: inherit;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    .nav__menu-icon{
+        display: none;
+    }
+
+    .nav__cloese-icon{
+        display: none;
+    }
+
+    .nav__menu-list ul{
+        list-style: none;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        
+    }
+    
+    .nav__menu-list ul li{
+        margin-bottom: 0rem;
+        display: inline-block;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    header{
+        max-width: 144rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+   }
+
+    nav{
+        position: inherit;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    .nav__menu-icon{
+        display: none;
+    }
+
+    .nav__cloese-icon{
+        display: none;
+    }
+
+    .nav__menu-list ul{
+        list-style: none;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        
+    }
+    
+    .nav__menu-list ul li{
+        margin-bottom: 0rem;
+        display: inline-block;
+        margin-left: 2rem;
+    }
+}
