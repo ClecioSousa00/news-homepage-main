@@ -10,6 +10,7 @@
 }
 :root{
     --primary:#F2EDD6;
+    --colorButtom: #F15D51;
 }
 
 html{
@@ -34,12 +35,12 @@ header{
 nav{
     position: absolute;
     top: 0;
-    right: -100rem;
+    right: 0;
     background-color: #fff;
-    padding-left: 3rem;
-    width: 70vw;
+    width: 0;
     height: 100vh;
     transition: all 0.4s ease;
+    overflow: hidden;
 
 }
 .nav__menu-icon{
@@ -59,6 +60,7 @@ nav{
 .nav__menu-list ul{
     list-style: none;
     margin-top: 15rem;
+    margin-left: 2rem;
 }
 
 .nav__menu-list ul li{
@@ -74,5 +76,53 @@ nav{
 }
 
 nav.active{
-    right: 0rem;
+    width: 70vw;
+}
+
+/* ----------------------- */
+
+main{
+    width: 80%;
+    margin: auto;
+    
+}
+.section__image-text{
+    
+}
+.section__image img{
+    max-width: 40rem;
+    width: 100%;
+    
+}
+.section__text{
+    margin-top: 3rem;
+    max-width: 40rem;
+    width: 100%;
+}
+.section__text h2{
+    font-size: 3.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.section__text p{
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin-top: 1.4rem;
+}
+
+.section__btn-read button{
+    width: 18rem;
+    height: 5rem;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    background-color: var(--colorButtom);
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    margin-top: 3rem;
+
 }
