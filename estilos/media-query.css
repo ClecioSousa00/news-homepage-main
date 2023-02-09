@@ -17,13 +17,10 @@
         padding: 3.2rem 3.4rem; 
     }
 
-    .main__image img{
+    .section__image img{
         max-width: 60rem;
     }
 
-    .main__text{
-       
-    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -58,6 +55,15 @@
         margin-bottom: 0rem;
         display: inline-block;
         margin-left: 2rem;
+    }
+
+    main{
+        display: flex;
+        gap: 3rem;
+    }
+
+    .container__new{
+        margin-top: 0rem;
     }
     
 }
@@ -94,6 +100,14 @@
         margin-bottom: 0rem;
         display: inline-block;
         margin-left: 2rem;
+    }
+    main{
+        display: flex;
+        gap: 3rem;
+    }
+
+    .container__new{
+        margin-top: 0rem;
     }
 }
 
@@ -132,4 +146,22 @@
         display: inline-block;
         margin-left: 2rem;
     }
+    main{
+        display: flex;
+        gap: 3rem;
+        max-width: 144rem;
+       justify-content: center;
+     
+    }
+    
+    .section__image img{
+        height: 30rem;
+        max-width: 72.8rem;
+        width: 100%;
+    }
+    
+    .container__new{
+        margin-top: 0rem;
+    }
+
 }
