@@ -34,7 +34,12 @@
 
     <main>
         <section class="section__image-text"> 
-            <div class="section__image"><img src="images/image-web-3-mobile.jpg" alt="imagem principal"></div>
+            <div class="section__image">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/image-web-3-desktop.jpg">
+                    <img src="images/image-web-3-mobile.jpg" alt="imagem principal">
+                </picture>
+            </div>
             <div class="section__text">
                 <h2>The Bright Future of Web 3.0?</h2>
                 <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
@@ -44,10 +49,63 @@
             </div>
         </section>
 
-        <section>
-
-        </section>
+        <aside>
+            <div class="container__new">
+                <h3>New</h3>
+                
+                <div class="new__description">
+                    <h4>Hydrogen VS Electric Cars</h4>
+                    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                
+                <div class="new__description">
+                    <h4>The Downsides of Al Artistry</h4>
+                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                
+                <div class="new__description">
+                    <h4>Is VC Funding Drying Up?</h3>
+                    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </div>
+        </aside>
     </main>
+
+    <aside>
+        <div class="container">
+            <div class="container__content">
+                
+                <div class="content__sections">
+                    
+                    <img src="images/image-retro-pcs.jpg" alt="PC retro">
+                    <div class="sections__description">
+                        <span>01</span>
+                        <h5>Reviving Retro PCs</h5>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+                
+                <div class="content__sections">
+                    <img src="images/image-top-laptops.jpg" alt="PC retro">
+                    <div class="sections__description">
+                        <span>02</span>
+                        <h5>Top 10 laptops of 2022</h5>
+                        <p>Our best picks of various needs and budgets.</p>
+                    </div>
+                </div>
+                
+                <div class="content__sections">
+                    <img src="images/image-gaming-growth.jpg" alt="PC retro">
+                    <div class="sections__description">
+                        <span>03</span>
+                        <h5>The growth of gaming</h5>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </aside>
 
     <script src="javascript/script.js"></script>
 </body>
